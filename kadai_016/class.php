@@ -35,6 +35,12 @@
     $apple = new Food('リンゴ', 10);
     $cat = new Animal('マロン', 20, 30);
 
+    print_r($apple);
+    echo '<br>';
+    print_r($cat);
+    echo '<br>';
+    
+
     echo $apple->show_price(); // priceを表示
     echo '<br>';
     echo $cat->show_height(); // heightを表示
